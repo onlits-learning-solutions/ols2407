@@ -1,0 +1,122 @@
+{
+    "1": {
+        "date": "26-01",
+        "name": "Republic Day of India",
+        "description": "Republic Day celebrates the adoption of India's Constitution on January 26, 1950, replacing the Government of India Act (1935) as the governing document.",
+        "first_held": "1950-1-26"
+    },
+    "2": {
+        "date": "15-08",
+        "name": "Independence Day of India",
+        "description": "August 15th is celebrated as Independence Day in India, commemorating the country's independence from British rule in 1947. The day also marks the partition of the subcontinent into India and Pakistan.",
+        "first_held": "1947-8-15"
+    },
+    "3": {
+        "date": "02-10",
+        "name": "Gandhi Jayanti",
+        "description": "October 2nd marks the birth anniversary of Mahatma Gandhi, the leader of India's non-violent independence movement against British rule. It is also observed as the International Day of Non-Violence.",
+        "first_held": "1948-10-2"
+    },
+    "4": {
+        "date": "25-12",
+        "name": "Christmas Day",
+        "description": "Christmas is celebrated on December 25th by Christians in India and globally to commemorate the birth of Jesus Christ.",
+        "first_held": "Unknown"
+    },
+    "5": {
+        "date": "13-01",
+        "name": "Lohri",
+        "description": "Lohri marks the end of winter and is celebrated with bonfires, dancing, and traditional foods, especially in northern India.",
+        "first_held": "Unknown"
+    },
+    "6": {
+        "date": "14-01",
+        "name": "Makar Sankranti",
+        "description": "Makar Sankranti celebrates the sun's transition into the zodiac sign of Capricorn, marking the beginning of longer days. It is celebrated with kite flying, bonfires, and traditional sweets.",
+        "first_held": "Unknown"
+    },
+    "7": {
+        "date": "21-03",
+        "name": "Holi",
+        "description": "Holi is the Hindu festival of colors, celebrating the victory of good over evil and the arrival of spring. People celebrate by throwing colored powders, water, and dancing.",
+        "first_held": "Unknown"
+    },
+    "8": {
+        "date": "07-04",
+        "name": "Ram Navami",
+        "description": "Ram Navami celebrates the birth of Lord Rama, the seventh avatar of the Hindu god Vishnu. Devotees offer prayers and participate in religious processions.",
+        "first_held": "Unknown"
+    },
+    "9": {
+        "date": "22-03",
+        "name": "Ugadi",
+        "description": "Ugadi is celebrated as the New Year in Andhra Pradesh, Telangana, and Karnataka. It marks the beginning of a new Hindu lunar calendar.",
+        "first_held": "Unknown"
+    },
+    "10": {
+        "date": "14-04",
+        "name": "Baisakhi",
+        "description": "Baisakhi is a major Sikh festival celebrating the spring harvest and the founding of the Khalsa in 1699 by Guru Gobind Singh.",
+        "first_held": "1699-4-14"
+    },
+    "11": {
+        "date": "22-04",
+        "name": "Eid al-Fitr",
+        "description": "Eid al-Fitr marks the end of Ramadan, the Islamic holy month of fasting. It is celebrated with prayers, feasts, and giving to charity.",
+        "first_held": "Unknown"
+    },
+    "12": {
+        "date": "29-06",
+        "name": "Bakrid (Eid al-Adha)",
+        "description": "Eid al-Adha commemorates the willingness of Ibrahim to sacrifice his son as an act of obedience to God. Muslims offer prayers and perform animal sacrifices.",
+        "first_held": "Unknown"
+    },
+    "13": {
+        "date": "19-08",
+        "name": "Janmashtami",
+        "description": "Janmashtami celebrates the birth of Lord Krishna, the eighth avatar of Vishnu. Celebrations include fasting, singing devotional songs, and reenacting episodes from Krishna's life.",
+        "first_held": "Unknown"
+    },
+    "14": {
+        "date": "29-09",
+        "name": "Ganesh Chaturthi",
+        "description": "Ganesh Chaturthi marks the birth of Lord Ganesha, the elephant-headed deity of wisdom and prosperity. It is celebrated with the installation of clay idols of Ganesha in homes and public places, followed by processions and immersion in water.",
+        "first_held": "Unknown"
+    },
+    "15": {
+        "date": "02-10",
+        "name": "Dussehra",
+        "description": "Dussehra celebrates the victory of Lord Rama over the demon king Ravana, symbolizing the triumph of good over evil. Effigies of Ravana are burned in public events.",
+        "first_held": "Unknown"
+    },
+    "16": {
+        "date": "24-10",
+        "name": "Diwali",
+        "description": "Diwali, the Festival of Lights, celebrates the return of Lord Rama to Ayodhya after his 14-year exile. People light oil lamps, burst firecrackers, and exchange sweets.",
+        "first_held": "Unknown"
+    },
+    "17": {
+        "date": "24-10",
+        "name": "Lakshmi Puja",
+        "description": "Lakshmi Puja is performed during Diwali to honor Goddess Lakshmi, the goddess of wealth and prosperity. It involves prayers, offerings, and the lighting of lamps.",
+        "first_held": "Unknown"
+    },
+    "18": {
+        "date": "10-11",
+        "name": "Guru Nanak Jayanti",
+        "description": "Guru Nanak Jayanti marks the birth anniversary of Guru Nanak, the founder of Sikhism. Devotees visit gurdwaras, offer prayers, and participate in processions.",
+        "first_held": "1469-11-10"
+    },
+    "19": {
+        "date": "25-12",
+        "name": "Good Friday",
+        "description": "Good Friday commemorates the crucifixion of Jesus Christ. Christians observe the day with prayers, fasting, and church services.",
+        "first_held": "Unknown"
+    },
+    "20": {
+        "date": "25-03",
+        "name": "Mahavir Jayanti",
+        "description": "Mahavir Jayanti celebrates the birth of Lord Mahavir, the 24th Tirthankara of Jainism. Jains offer prayers, attend religious discourses, and participate in processions.",
+        "first_held": "Unknown"
+    }
+}
