@@ -54,5 +54,5 @@ int main(int argc, char const *argv[])
     holiday.setName("Independence Day");
     cout << "Date: " << holiday.getDate() << endl;
     cout << "Name:" << holiday.getName() << endl;
-    return 0;
+    return 100;
 }
