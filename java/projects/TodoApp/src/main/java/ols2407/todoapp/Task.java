@@ -23,6 +23,9 @@ public class Task {
             Connection connection = DriverManager.getConnection("jdbc:mysql://localhost", "ols2407", "ols2407");
             System.out.println(connection);
             Statement statement = connection.createStatement();
+            // System.out.println(connection);
+            String sql = "SELECT * FROM task";
+            statement.query(sql);
         } catch (SQLException e) {
             System.out.println(e);
         }
