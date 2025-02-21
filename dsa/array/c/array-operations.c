@@ -20,7 +20,7 @@ int main(int argc, char const *argv[])
             display(arr, size);
             break;
         default:
-            printf("Invalid option!\n");
+            messagebox("Invalid option!");
             break;
         }
     }
