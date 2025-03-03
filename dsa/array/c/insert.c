@@ -1,32 +1,39 @@
 #include "common.h"
 
-int main(int argc, char const *argv[])
+void insertmenu(int *arr, int *size)
 {
-    int arr[MAX], size = 0, ch;
+    int ch;
     while (1)
     {
-        messagebox("MAIN MENU");
-        printf("1. Display\n");
-        printf("2. Insert\n");
+        messagebox("INSERT MENU");
+        printf("1. Insert at the beginning\n");
+        printf("2. Insert at the end\n");
         printf("Enter choice [0 to exit]: ");
         scanf("%d", &ch);
         switch (ch)
         {
         case 0:
-            messagebox("Bye!");
             return;
             break;
         case 1:
-            display(arr, size);
+            insertbeginning(arr, size);
             break;
         case 2:
-            insertmenu();
+            insertend(arr, size);
             break;
         default:
             messagebox("Invalid Option!");
             break;
         }
     }
-       
-    return 0;
+}
+
+void insertbeginning(int *arr, int *size)
+{
+
+}
+
+void insertend(int *arr, int *size)
+{
+
 }
