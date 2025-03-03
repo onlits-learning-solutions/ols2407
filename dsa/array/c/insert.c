@@ -30,10 +30,18 @@ void insertmenu(int *arr, int *size)
 
 void insertbeginning(int *arr, int *size)
 {
-
 }
 
 void insertend(int *arr, int *size)
 {
+    if (*size >= MAX)
+    {
+        messagebox("Array overflow!");
+        return;
+    }
 
+    printf("Enter value: ");
+    scanf("%d", &arr[*size]);
+    (*size)++;
+    messagebox("Value inserted!");
 }
