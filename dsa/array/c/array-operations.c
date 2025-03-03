@@ -14,13 +14,13 @@ int main(int argc, char const *argv[])
         {
         case 0:
             messagebox("Bye!");
-            return;
+            return 0;
             break;
         case 1:
             display(arr, size);
             break;
         case 2:
-            insertmenu();
+            insertmenu(arr, &size);
             break;
         default:
             messagebox("Invalid Option!");

@@ -1,0 +1,6 @@
+5 categories of function:
+	1. Function with no argument and no return value.	(Eg. )
+	2. Function with argument and no return value.		(Eg. exit(), free())
+	3. Function with argument and return one value.		(Eg. printf(), scanf(), sqrt(), malloc(), calloc())
+	4. Function with no argument but return a value.	(getchar())
+	5. Function with multiple return value.			?
