@@ -13,3 +13,4 @@ void display(int *arr, int size);
 void insertmenu();
 void insertbeginning(int *arr, int *size);
 void insertend(int *arr, int *size);
+void insertindex(int *arr, int *size);
