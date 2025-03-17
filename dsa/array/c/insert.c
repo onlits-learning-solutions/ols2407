@@ -23,7 +23,6 @@ void insertmenu(int *arr, int *size)
             break;
         default:
             messagebox("Invalid Option!");
-            break;
         }
     }
 }
