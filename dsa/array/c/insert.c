@@ -60,24 +60,34 @@ void insertbeginning(int *arr, int *size)
 
 
 void insertindex(int *arr, int *size){
+    int index, value;
 
-if(*size >= MAX){
-    messagebox("Array overflow!");
-    return;
-}
+    printf("Enter index: ");
+    scanf("%d", &index);
 
-int index;
-int value;
-printf("Enter index: ");
-scanf("%d", &index);
-printf("Enter value: ");
-scanf("%d", &value);
-if(index < 0 || index >= *size){
-    messagebox("Invalid index!");
-    return;
-}
-arr[index] = value;
-(*size)++;
+    if (index < 0 || index > *size)
+    {
+        messagebox("Invalid index!");
+        return;
+    }
+
+    if (*size >= MAX)
+    {
+        messagebox("Array overflow!");
+        return;
+    }
+
+    printf("Enter value: ");
+    scanf("%d", &value);
+
+    for (int i = *size; i > index; i--)
+    {
+        arr[i] = arr[i - 1];
+    }
+
+    arr[index] = value;
+    (*size)++;
+    messagebox("Value inserted!");
 
 }
 
