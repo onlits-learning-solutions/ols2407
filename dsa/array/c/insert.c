@@ -8,6 +8,7 @@ void insertmenu(int *arr, int *size)
         messagebox("INSERT MENU");
         printf("1. Insert at the beginning\n");
         printf("2. Insert at the end\n");
+        printf("3. Insert at the Index\n");
         printf("Enter choice [0 to exit]: ");
         scanf("%d", &ch);
         switch (ch)
@@ -20,6 +21,9 @@ void insertmenu(int *arr, int *size)
             break;
         case 2:
             insertend(arr, size);
+            break;
+        case 3:
+            insertindex(arr, size);
             break;
         default:
             messagebox("Invalid Option!");
@@ -52,6 +56,29 @@ void insertbeginning(int *arr, int *size)
     }
     (*size)++;
     messagebox("Value inserted!");
+}
+
+
+void insertindex(int *arr, int *size){
+
+if(*size >= MAX){
+    messagebox("Array overflow!");
+    return;
+}
+
+int index;
+int value;
+printf("Enter index: ");
+scanf("%d", &index);
+printf("Enter value: ");
+scanf("%d", &value);
+if(index < 0 || index >= *size){
+    messagebox("Invalid index!");
+    return;
+}
+arr[index] = value;
+(*size)++;
+
 }
 
 void insertend(int *arr, int *size)

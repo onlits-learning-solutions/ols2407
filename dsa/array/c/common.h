@@ -13,7 +13,7 @@ void display(int *arr, int size);
 void insertmenu(int *arr, int *size);
 void insertbeginning(int *arr, int *size);
 void insertend(int *arr, int *size);
-
+void insertindex(int *arr, int *size);
 // ------------ search.c ------------------
 void searchmenu(int *arr, int size);
 void linearsearch(int *arr, int size);
