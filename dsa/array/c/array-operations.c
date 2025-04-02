@@ -23,6 +23,9 @@ int main(int argc, char const *argv[])
         case 2:
             insertmenu(arr, &size);
             break;
+        case 3:
+            sortmenu(arr, size);
+            break;
         case 4:
             searchmenu(arr, size);
             break;

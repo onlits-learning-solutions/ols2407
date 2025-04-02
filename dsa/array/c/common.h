@@ -18,3 +18,8 @@ void insertindex(int *arr, int *size);
 void searchmenu(int *arr, int size);
 void linearsearch(int *arr, int size);
 void binarysearch(int *arr, int size);
+
+// ------------- sort.c -------------------
+void sortmenu(int *arr, int size);
+void selectionsort(int *arr, int size);
+void bubblesort(int *arr, int size);
