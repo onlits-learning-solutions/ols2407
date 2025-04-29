@@ -8,6 +8,7 @@ void printline(int n);
 void messagebox(char *message);
 void title(char *title);
 void display(int *arr, int size);
+void swap(int *a, int *b);
 
 // ------------ insert.c -----------------
 void insertmenu(int *arr, int *size);
