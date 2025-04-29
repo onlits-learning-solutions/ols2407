@@ -8,6 +8,7 @@ void printline(int n);
 void messagebox(char *message);
 void title(char *title);
 void display(int *arr, int size);
+void swap(int *a, int *b);
 
 // ------------ insert.c -----------------
 void insertmenu(int *arr, int *size);
@@ -18,3 +19,8 @@ void insertindex(int *arr, int *size);
 void searchmenu(int *arr, int size);
 void linearsearch(int *arr, int size);
 void binarysearch(int *arr, int size);
+
+// ------------- sort.c -------------------
+void sortmenu(int *arr, int size);
+void selectionsort(int *arr, int size);
+void bubblesort(int *arr, int size);

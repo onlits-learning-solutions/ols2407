@@ -40,3 +40,10 @@ void display(int *arr, int size)
         printf("%d\n", arr[i]);
     }
 }
+
+void swap(int *a, int *b)
+{
+    int t = *a;
+    *a = *b;
+    *b = t;
+}

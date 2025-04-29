@@ -8,6 +8,7 @@ int main(int argc, char const *argv[])
         messagebox("MAIN MENU");
         printf("1. Display\n");
         printf("2. Insert\n");
+        printf("3. Sort\n");
         printf("4. Search\n");
         printf("Enter choice [0 to exit]: ");
         scanf("%d", &ch);
@@ -22,6 +23,9 @@ int main(int argc, char const *argv[])
             break;
         case 2:
             insertmenu(arr, &size);
+            break;
+        case 3:
+            sortmenu(arr, size);
             break;
         case 4:
             searchmenu(arr, size);
