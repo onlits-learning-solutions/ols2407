@@ -55,6 +55,33 @@ void linearsearch(int *arr, int size)
 }
 
 void binarysearch(int *arr, int size)
-{
-
+    {
+        if (size < 2) {
+            printf("\nAt least two elements are required to perform search\n");
+            return;
+        }
+    
+        int target;
+        printf("Enter search value: ");
+        scanf("%d", &target);
+    
+        int low = 0, high = size - 1, mid, guess;
+    
+        while (low <= high) {
+            mid = low + (high - low) / 2;
+            guess = arr[mid];
+    
+            if (guess == target) {
+                printf("\nThe number %d is at index %d\n", target, mid);
+                return;
+            } 
+            if (guess > target) {
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+        }
+    
+        printf("\n%d does not exist in array\n", target);
+    
 }
