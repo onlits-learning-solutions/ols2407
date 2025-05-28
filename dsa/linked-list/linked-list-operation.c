@@ -23,7 +23,7 @@ int main(int argc, char const *argv[])
             display(head);
             break;
         case 2:
-            insertmenu(head);
+            insertmenu(&head);
             messagebox("Under Construction!");
             break;
         case 3:

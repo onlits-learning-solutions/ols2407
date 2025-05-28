@@ -1,6 +1,6 @@
 #include "common.h"
 
-void insertmenu(NODE *head)
+void insertmenu(NODE **head)
 {
     int ch;
     while (1)
@@ -18,13 +18,13 @@ void insertmenu(NODE *head)
             return;
             break;
         case 1:
-            head == NULL ? insertfirst(head) : insertbeginning(head);
+            *head == NULL ? insertfirst(*head) : insertbeginning(*head);
             break;
         case 2:
-            insertend(head);
+            insertend(*head);
             break;
         case 3:
-            insertindex(head);
+            insertindex(*head);
             break;
         default:
             messagebox("Invalid Option!");
@@ -32,31 +32,31 @@ void insertmenu(NODE *head)
     }
 }
 
-void insertfirst(NODE *head)
+void insertfirst(NODE **head)
 {
     int data;
     printf("Enter value to insert: ");
     scanf("%d", &data);
-    head = (NODE *)malloc(sizeof(NODE));
-    head->data = data;
-    head->next = NULL;
+    *head = (NODE *)malloc(sizeof(NODE));
+    (*head)->data = data;
+    (*head)->next = NULL;
     messagebox("Value inserted!");
 }
 
-void insertbeginning(NODE *head)
+void insertbeginning(NODE **head)
 {
     
     messagebox("Value inserted!");
 }
 
 
-void insertindex(NODE *head){
+void insertindex(NODE **head){
     
     messagebox("Value inserted!");
 
 }
 
-void insertend(NODE *head)
+void insertend(NODE **head)
 {
    
     messagebox("Value inserted!");
