@@ -24,7 +24,6 @@ int main(int argc, char const *argv[])
             break;
         case 2:
             insertmenu(&head);
-            messagebox("Under Construction!");
             break;
         case 3:
             // sortmenu(head);

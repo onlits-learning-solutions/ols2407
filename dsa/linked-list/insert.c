@@ -18,13 +18,13 @@ void insertmenu(NODE **head)
             return;
             break;
         case 1:
-            *head == NULL ? insertfirst(*head) : insertbeginning(*head);
+            *head == NULL ? insertfirst(head) : insertbeginning(head);
             break;
         case 2:
-            insertend(*head);
+            insertend(head);
             break;
         case 3:
-            insertindex(*head);
+            insertindex(head);
             break;
         default:
             messagebox("Invalid Option!");
