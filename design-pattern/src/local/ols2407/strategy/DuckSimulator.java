@@ -1,17 +1,28 @@
 package local.ols2407.strategy;
 
 public class DuckSimulator {
+
     public static void main(String[] args) {
-        Duck mallardDuck = new MallardDuck();
-        mallardDuck.display();
-        mallardDuck.quack();
-        mallardDuck.swim();
+        testDuck(new MallardDuck());
 
         System.out.println("--------------");
 
-        Duck readHeadDuck = new RedHeadDuck();
-        readHeadDuck.display();
-        readHeadDuck.quack();
-        readHeadDuck.swim();
+        testDuck(new RedHeadDuck());
+
+        System.out.println("--------------");
+
+        testDuck(new RubberDuck());
+
+        System.out.println("--------------");
+
+        testDuck(new DecoyDuck());
+
+    }
+
+    public static void testDuck(Duck duck) {
+        duck.display();
+        duck.quack();
+        duck.swim();
+        duck.fly();
     }
 }
