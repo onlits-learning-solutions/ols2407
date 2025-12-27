@@ -21,8 +21,8 @@ public class DuckSimulator {
 
     public static void testDuck(Duck duck) {
         duck.display();
-        duck.quack();
+        duck.performQuack();
         duck.swim();
-        duck.fly();
+        duck.performFly();
     }
 }

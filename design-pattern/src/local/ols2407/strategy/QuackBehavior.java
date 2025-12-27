@@ -1,5 +1,5 @@
 package local.ols2407.strategy;
 
-public interface Quackable {
+public interface QuackBehavior {
     public void quack();
 }
